@@ -10,11 +10,22 @@
     img{
       max-width: 100%;
       vertical-align: top;
+    /*  display: none;*/
+    }
+    img#responsive{
+      display: none;
+    }
+    @media screen and (max-width 768px){
+      img#responsive{
+        display: block;
+      }
     }
     </style>
+
   </head>
   <body>
     <h1><strong>git && github</strong></h1>
+      <img src="larguero.png" alt="" id="responsive">
     <img src="header_0fdd3fdf-3dcc-4466-8a28-4cbcc02a2c6e.jpg" alt="">
     <img src="hero.jpg" alt="">
     <img src="acustica.jpg" alt="">
